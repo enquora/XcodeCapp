@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021B94651B20CECA00F12DDA /* XCCOperationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021B94641B20CECA00F12DDA /* XCCOperationsViewController.m */; };
+		021B94671B20D1F800F12DDA /* OperationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021B94661B20D1F800F12DDA /* OperationsView.xib */; };
+		021B94691B20D6FC00F12DDA /* ErrorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021B94681B20D6FC00F12DDA /* ErrorsView.xib */; };
+		021B946C1B20D71200F12DDA /* XCCErrorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021B946B1B20D71200F12DDA /* XCCErrorsViewController.m */; };
+		021B94701B20E31F00F12DDA /* XCCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021B946E1B20E31F00F12DDA /* XCCSettingsViewController.m */; };
+		021B94711B20E31F00F12DDA /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021B946F1B20E31F00F12DDA /* SettingsView.xib */; };
+		021B94751B21112500F12DDA /* XCCWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021B94741B21112500F12DDA /* XCCWelcomeView.m */; };
+		0255B8401B1F71FB000CA4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0255B83F1B1F71FB000CA4BC /* AppDelegate.m */; };
+		0257A65B1B3A2B0000015C1F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6841F2471AF98CE600CFE60E /* MainMenu.xib */; };
+		0258003C1B1E1C470000EB7D /* NSMutableArray+moveIndexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258003B1B1E1C470000EB7D /* NSMutableArray+moveIndexes.m */; };
+		025800451B1E3F010000EB7D /* XCCAbstractOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 025800441B1E3F010000EB7D /* XCCAbstractOperation.m */; };
+		0258004B1B1E67090000EB7D /* supawhich in Resources */ = {isa = PBXBuildFile; fileRef = 0258004A1B1E67090000EB7D /* supawhich */; };
+		027539111B227D7500F6D824 /* YRKSpinningProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 027539101B227D7500F6D824 /* YRKSpinningProgressIndicator.m */; };
+		680621191B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 680621181B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.m */; };
+		6815BBEB1AFC24430030D8BB /* XcodeProjectCloser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815BBEA1AFC24430030D8BB /* XcodeProjectCloser.m */; };
+		681ADE8F1B0D032C00FC8E08 /* XCCPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 681ADE8E1B0D032C00FC8E08 /* XCCPath.m */; };
+		6824CDDA1B0D5AA700F73447 /* XCCOperationDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6824CDD91B0D5AA700F73447 /* XCCOperationDataView.m */; };
+		6824CDDE1B0DA34500F73447 /* XCCMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6824CDDD1B0DA34500F73447 /* XCCMainController.m */; };
+		6824CDEA1B0E9CDB00F73447 /* XCCOperationErrorDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6824CDE91B0E9CDB00F73447 /* XCCOperationErrorDataView.m */; };
+		6824CDF01B0E9F1400F73447 /* XCCOperationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6824CDEF1B0E9F1400F73447 /* XCCOperationError.m */; };
+		6841F2441AF98CE600CFE60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2431AF98CE600CFE60E /* main.m */; };
+		6841F2461AF98CE600CFE60E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6841F2451AF98CE600CFE60E /* Images.xcassets */; };
+		6841F26C1AF98DDD00CFE60E /* mod_pbxproj.py in Resources */ = {isa = PBXBuildFile; fileRef = 6841F2691AF98DDD00CFE60E /* mod_pbxproj.py */; };
+		6841F26E1AF98DDD00CFE60E /* pbxprojModifier.py in Resources */ = {isa = PBXBuildFile; fileRef = 6841F26B1AF98DDD00CFE60E /* pbxprojModifier.py */; };
+		6841F2A51AF9932300CFE60E /* project.pbxproj in Resources */ = {isa = PBXBuildFile; fileRef = 6841F28A1AF9932300CFE60E /* project.pbxproj */; };
+		6841F2B71AFA83D500CFE60E /* XCCUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2B61AFA83D500CFE60E /* XCCUserDefaults.m */; };
+		6841F2BF1AFA965300CFE60E /* XCCTaskLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2BE1AFA965300CFE60E /* XCCTaskLauncher.m */; };
+		6841F2C41AFABD7200CFE60E /* XCCCappuccinoProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2C31AFABD7200CFE60E /* XCCCappuccinoProject.m */; };
+		6841F2CA1AFADEBC00CFE60E /* XCCSourcesFinderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2C71AFADEBC00CFE60E /* XCCSourcesFinderOperation.m */; };
+		6841F2CB1AFADEBC00CFE60E /* XCCSourceProcessingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841F2C91AFADEBC00CFE60E /* XCCSourceProcessingOperation.m */; };
+		6863FBA31AFD55A900040C8E /* XCCFSEventLogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6863FBA21AFD55A900040C8E /* XCCFSEventLogUtils.m */; };
+		686ACD311B16397F0089EB03 /* XCCCappuccinoProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686ACD301B16397F0089EB03 /* XCCCappuccinoProjectController.m */; };
+		686C69711B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 686C69701B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.m */; };
+		68B6BF321B1E2546003B265B /* XCCPPXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B6BF311B1E2546003B265B /* XCCPPXOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021B94631B20CECA00F12DDA /* XCCOperationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCOperationsViewController.h; sourceTree = "<group>"; };
+		021B94641B20CECA00F12DDA /* XCCOperationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCOperationsViewController.m; sourceTree = "<group>"; };
+		021B94661B20D1F800F12DDA /* OperationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperationsView.xib; sourceTree = "<group>"; };
+		021B94681B20D6FC00F12DDA /* ErrorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorsView.xib; sourceTree = "<group>"; };
+		021B946A1B20D71200F12DDA /* XCCErrorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCErrorsViewController.h; sourceTree = "<group>"; };
+		021B946B1B20D71200F12DDA /* XCCErrorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCErrorsViewController.m; sourceTree = "<group>"; };
+		021B946D1B20E31F00F12DDA /* XCCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCSettingsViewController.h; sourceTree = "<group>"; };
+		021B946E1B20E31F00F12DDA /* XCCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCSettingsViewController.m; sourceTree = "<group>"; };
+		021B946F1B20E31F00F12DDA /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		021B94731B21112500F12DDA /* XCCWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCWelcomeView.h; sourceTree = "<group>"; };
+		021B94741B21112500F12DDA /* XCCWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCWelcomeView.m; sourceTree = "<group>"; };
+		0255B83F1B1F71FB000CA4BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0258003A1B1E1C470000EB7D /* NSMutableArray+moveIndexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+moveIndexes.h"; sourceTree = "<group>"; };
+		0258003B1B1E1C470000EB7D /* NSMutableArray+moveIndexes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+moveIndexes.m"; sourceTree = "<group>"; };
+		025800431B1E3F010000EB7D /* XCCAbstractOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCAbstractOperation.h; sourceTree = "<group>"; };
+		025800441B1E3F010000EB7D /* XCCAbstractOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCAbstractOperation.m; sourceTree = "<group>"; };
+		0258004A1B1E67090000EB7D /* supawhich */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = supawhich; sourceTree = "<group>"; };
+		0275390F1B227D7500F6D824 /* YRKSpinningProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRKSpinningProgressIndicator.h; sourceTree = "<group>"; };
+		027539101B227D7500F6D824 /* YRKSpinningProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRKSpinningProgressIndicator.m; sourceTree = "<group>"; };
+		680621171B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCCappuccinoProjectControllerDataView.h; sourceTree = "<group>"; };
+		680621181B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCCappuccinoProjectControllerDataView.m; sourceTree = "<group>"; };
+		6815BBE61AFBE6B00030D8BB /* XCCCappuccinoProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCCappuccinoProjectController.h; sourceTree = "<group>"; };
+		6815BBE91AFC24430030D8BB /* XcodeProjectCloser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeProjectCloser.h; sourceTree = "<group>"; };
+		6815BBEA1AFC24430030D8BB /* XcodeProjectCloser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeProjectCloser.m; sourceTree = "<group>"; };
+		681ADE8D1B0D032C00FC8E08 /* XCCPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCPath.h; sourceTree = "<group>"; };
+		681ADE8E1B0D032C00FC8E08 /* XCCPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCPath.m; sourceTree = "<group>"; };
+		6824CDD81B0D5AA700F73447 /* XCCOperationDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCOperationDataView.h; sourceTree = "<group>"; };
+		6824CDD91B0D5AA700F73447 /* XCCOperationDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCOperationDataView.m; sourceTree = "<group>"; };
+		6824CDDC1B0DA34500F73447 /* XCCMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCMainController.h; sourceTree = "<group>"; };
+		6824CDDD1B0DA34500F73447 /* XCCMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCMainController.m; sourceTree = "<group>"; };
+		6824CDE81B0E9CDB00F73447 /* XCCOperationErrorDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCOperationErrorDataView.h; sourceTree = "<group>"; };
+		6824CDE91B0E9CDB00F73447 /* XCCOperationErrorDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCOperationErrorDataView.m; sourceTree = "<group>"; };
+		6824CDEE1B0E9F1400F73447 /* XCCOperationError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCCOperationError.h; path = XcodeCapp/XCCOperationError.h; sourceTree = "<group>"; };
+		6824CDEF1B0E9F1400F73447 /* XCCOperationError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCCOperationError.m; path = XcodeCapp/XCCOperationError.m; sourceTree = "<group>"; };
+		6841F23B1AF98CE600CFE60E /* XcodeCapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6841F23F1AF98CE600CFE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6841F2401AF98CE600CFE60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6841F2431AF98CE600CFE60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6841F2451AF98CE600CFE60E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		6841F2691AF98DDD00CFE60E /* mod_pbxproj.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mod_pbxproj.py; sourceTree = "<group>"; };
+		6841F26B1AF98DDD00CFE60E /* pbxprojModifier.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pbxprojModifier.py; sourceTree = "<group>"; };
+		6841F2741AF98F6F00CFE60E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		6841F2791AF9902B00CFE60E /* XcodeCapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeCapp-Prefix.pch"; sourceTree = "<group>"; };
+		6841F27A1AF990C300CFE60E /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		6841F27B1AF990C300CFE60E /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		6841F28A1AF9932300CFE60E /* project.pbxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.pbxproject; path = project.pbxproj; sourceTree = "<group>"; };
+		6841F2B61AFA83D500CFE60E /* XCCUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCUserDefaults.m; sourceTree = "<group>"; };
+		6841F2B81AFA83E900CFE60E /* XCCUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCCUserDefaults.h; sourceTree = "<group>"; };
+		6841F2BD1AFA965300CFE60E /* XCCTaskLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCTaskLauncher.h; sourceTree = "<group>"; };
+		6841F2BE1AFA965300CFE60E /* XCCTaskLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCTaskLauncher.m; sourceTree = "<group>"; };
+		6841F2C21AFABD7200CFE60E /* XCCCappuccinoProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCCCappuccinoProject.h; path = XcodeCapp/XCCCappuccinoProject.h; sourceTree = "<group>"; };
+		6841F2C31AFABD7200CFE60E /* XCCCappuccinoProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCCCappuccinoProject.m; path = XcodeCapp/XCCCappuccinoProject.m; sourceTree = "<group>"; };
+		6841F2C61AFADEBC00CFE60E /* XCCSourcesFinderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCSourcesFinderOperation.h; sourceTree = "<group>"; };
+		6841F2C71AFADEBC00CFE60E /* XCCSourcesFinderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCSourcesFinderOperation.m; sourceTree = "<group>"; };
+		6841F2C81AFADEBC00CFE60E /* XCCSourceProcessingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCSourceProcessingOperation.h; sourceTree = "<group>"; };
+		6841F2C91AFADEBC00CFE60E /* XCCSourceProcessingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCSourceProcessingOperation.m; sourceTree = "<group>"; };
+		6863FBA11AFD55A900040C8E /* XCCFSEventLogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCFSEventLogUtils.h; sourceTree = "<group>"; };
+		6863FBA21AFD55A900040C8E /* XCCFSEventLogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCFSEventLogUtils.m; sourceTree = "<group>"; };
+		686ACD301B16397F0089EB03 /* XCCCappuccinoProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCCappuccinoProjectController.m; sourceTree = "<group>"; };
+		686ACD331B1691AA0089EB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		686C696F1B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCOperationErrorHeaderDataView.h; sourceTree = "<group>"; };
+		686C69701B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCOperationErrorHeaderDataView.m; sourceTree = "<group>"; };
+		68B6BF301B1E2546003B265B /* XCCPPXOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCPPXOperation.h; sourceTree = "<group>"; };
+		68B6BF311B1E2546003B265B /* XCCPPXOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCPPXOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6841F2381AF98CE600CFE60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021B94721B20E41B00F12DDA /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				021B946F1B20E31F00F12DDA /* SettingsView.xib */,
+				021B94681B20D6FC00F12DDA /* ErrorsView.xib */,
+				021B94661B20D1F800F12DDA /* OperationsView.xib */,
+				6841F2471AF98CE600CFE60E /* MainMenu.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		0275390D1B227D5900F6D824 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				0275390E1B227D6700F6D824 /* YRKSpinningProgressIndicator */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		0275390E1B227D6700F6D824 /* YRKSpinningProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0275390F1B227D7500F6D824 /* YRKSpinningProgressIndicator.h */,
+				027539101B227D7500F6D824 /* YRKSpinningProgressIndicator.m */,
+			);
+			name = YRKSpinningProgressIndicator;
+			sourceTree = "<group>";
+		};
+		680621161B015BDB00CB24CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				680621171B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.h */,
+				680621181B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.m */,
+				6824CDD81B0D5AA700F73447 /* XCCOperationDataView.h */,
+				6824CDD91B0D5AA700F73447 /* XCCOperationDataView.m */,
+				6824CDE81B0E9CDB00F73447 /* XCCOperationErrorDataView.h */,
+				6824CDE91B0E9CDB00F73447 /* XCCOperationErrorDataView.m */,
+				686C696F1B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.h */,
+				686C69701B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.m */,
+				021B94731B21112500F12DDA /* XCCWelcomeView.h */,
+				021B94741B21112500F12DDA /* XCCWelcomeView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6824CDDB1B0D976400F73447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6824CDDC1B0DA34500F73447 /* XCCMainController.h */,
+				6824CDDD1B0DA34500F73447 /* XCCMainController.m */,
+				6815BBE61AFBE6B00030D8BB /* XCCCappuccinoProjectController.h */,
+				686ACD301B16397F0089EB03 /* XCCCappuccinoProjectController.m */,
+				021B94631B20CECA00F12DDA /* XCCOperationsViewController.h */,
+				021B94641B20CECA00F12DDA /* XCCOperationsViewController.m */,
+				021B946A1B20D71200F12DDA /* XCCErrorsViewController.h */,
+				021B946B1B20D71200F12DDA /* XCCErrorsViewController.m */,
+				021B946D1B20E31F00F12DDA /* XCCSettingsViewController.h */,
+				021B946E1B20E31F00F12DDA /* XCCSettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6841F2321AF98CE600CFE60E = {
+			isa = PBXGroup;
+			children = (
+				6841F2741AF98F6F00CFE60E /* CoreServices.framework */,
+				6841F23D1AF98CE600CFE60E /* XcodeCapp */,
+				6841F23C1AF98CE600CFE60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6841F23C1AF98CE600CFE60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6841F23B1AF98CE600CFE60E /* XcodeCapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6841F23D1AF98CE600CFE60E /* XcodeCapp */ = {
+			isa = PBXGroup;
+			children = (
+				6841F2401AF98CE600CFE60E /* AppDelegate.h */,
+				0255B83F1B1F71FB000CA4BC /* AppDelegate.m */,
+				6824CDDB1B0D976400F73447 /* Controllers */,
+				68F3B95A1B0CFBCF00A7EF70 /* Models */,
+				680621161B015BDB00CB24CD /* Views */,
+				6841F2C51AFADE7D00CFE60E /* Operations */,
+				6841F2C01AFABD0900CFE60E /* Utils */,
+				6841F2681AF98DDD00CFE60E /* Scripts */,
+				6841F23E1AF98CE600CFE60E /* Supporting Files */,
+				021B94721B20E41B00F12DDA /* XIBs */,
+				6841F27E1AF9932300CFE60E /* Resources */,
+				0275390D1B227D5900F6D824 /* Externals */,
+			);
+			path = XcodeCapp;
+			sourceTree = "<group>";
+		};
+		6841F23E1AF98CE600CFE60E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6841F27A1AF990C300CFE60E /* Debug.xcconfig */,
+				6841F27B1AF990C300CFE60E /* Release.xcconfig */,
+				6841F23F1AF98CE600CFE60E /* Info.plist */,
+				6841F2791AF9902B00CFE60E /* XcodeCapp-Prefix.pch */,
+				6841F2431AF98CE600CFE60E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6841F2681AF98DDD00CFE60E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0258004A1B1E67090000EB7D /* supawhich */,
+				6841F2691AF98DDD00CFE60E /* mod_pbxproj.py */,
+				6841F26B1AF98DDD00CFE60E /* pbxprojModifier.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		6841F27E1AF9932300CFE60E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6841F2451AF98CE600CFE60E /* Images.xcassets */,
+				6841F28A1AF9932300CFE60E /* project.pbxproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6841F2C01AFABD0900CFE60E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				681ADE8D1B0D032C00FC8E08 /* XCCPath.h */,
+				681ADE8E1B0D032C00FC8E08 /* XCCPath.m */,
+				6841F2B61AFA83D500CFE60E /* XCCUserDefaults.m */,
+				6841F2B81AFA83E900CFE60E /* XCCUserDefaults.h */,
+				6841F2BD1AFA965300CFE60E /* XCCTaskLauncher.h */,
+				6841F2BE1AFA965300CFE60E /* XCCTaskLauncher.m */,
+				6815BBE91AFC24430030D8BB /* XcodeProjectCloser.h */,
+				6815BBEA1AFC24430030D8BB /* XcodeProjectCloser.m */,
+				6863FBA11AFD55A900040C8E /* XCCFSEventLogUtils.h */,
+				6863FBA21AFD55A900040C8E /* XCCFSEventLogUtils.m */,
+				0258003A1B1E1C470000EB7D /* NSMutableArray+moveIndexes.h */,
+				0258003B1B1E1C470000EB7D /* NSMutableArray+moveIndexes.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6841F2C51AFADE7D00CFE60E /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				6841F2C61AFADEBC00CFE60E /* XCCSourcesFinderOperation.h */,
+				6841F2C71AFADEBC00CFE60E /* XCCSourcesFinderOperation.m */,
+				6841F2C81AFADEBC00CFE60E /* XCCSourceProcessingOperation.h */,
+				6841F2C91AFADEBC00CFE60E /* XCCSourceProcessingOperation.m */,
+				68B6BF301B1E2546003B265B /* XCCPPXOperation.h */,
+				68B6BF311B1E2546003B265B /* XCCPPXOperation.m */,
+				025800431B1E3F010000EB7D /* XCCAbstractOperation.h */,
+				025800441B1E3F010000EB7D /* XCCAbstractOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		68F3B95A1B0CFBCF00A7EF70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6841F2C21AFABD7200CFE60E /* XCCCappuccinoProject.h */,
+				6841F2C31AFABD7200CFE60E /* XCCCappuccinoProject.m */,
+				6824CDEE1B0E9F1400F73447 /* XCCOperationError.h */,
+				6824CDEF1B0E9F1400F73447 /* XCCOperationError.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6841F23A1AF98CE600CFE60E /* XcodeCapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6841F2581AF98CE600CFE60E /* Build configuration list for PBXNativeTarget "XcodeCapp" */;
+			buildPhases = (
+				6841F2371AF98CE600CFE60E /* Sources */,
+				6841F2381AF98CE600CFE60E /* Frameworks */,
+				6841F2391AF98CE600CFE60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeCapp;
+			productName = XcodeCapp;
+			productReference = 6841F23B1AF98CE600CFE60E /* XcodeCapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6841F2331AF98CE600CFE60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "cappuccino-project";
+				TargetAttributes = {
+					6841F23A1AF98CE600CFE60E = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6841F2361AF98CE600CFE60E /* Build configuration list for PBXProject "XcodeCapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6841F2321AF98CE600CFE60E;
+			productRefGroup = 6841F23C1AF98CE600CFE60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6841F23A1AF98CE600CFE60E /* XcodeCapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6841F2391AF98CE600CFE60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6841F2461AF98CE600CFE60E /* Images.xcassets in Resources */,
+				021B94671B20D1F800F12DDA /* OperationsView.xib in Resources */,
+				021B94711B20E31F00F12DDA /* SettingsView.xib in Resources */,
+				0258004B1B1E67090000EB7D /* supawhich in Resources */,
+				6841F26E1AF98DDD00CFE60E /* pbxprojModifier.py in Resources */,
+				6841F2A51AF9932300CFE60E /* project.pbxproj in Resources */,
+				0257A65B1B3A2B0000015C1F /* MainMenu.xib in Resources */,
+				6841F26C1AF98DDD00CFE60E /* mod_pbxproj.py in Resources */,
+				021B94691B20D6FC00F12DDA /* ErrorsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6841F2371AF98CE600CFE60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B6BF321B1E2546003B265B /* XCCPPXOperation.m in Sources */,
+				021B94701B20E31F00F12DDA /* XCCSettingsViewController.m in Sources */,
+				0255B8401B1F71FB000CA4BC /* AppDelegate.m in Sources */,
+				0258003C1B1E1C470000EB7D /* NSMutableArray+moveIndexes.m in Sources */,
+				6841F2BF1AFA965300CFE60E /* XCCTaskLauncher.m in Sources */,
+				027539111B227D7500F6D824 /* YRKSpinningProgressIndicator.m in Sources */,
+				6841F2C41AFABD7200CFE60E /* XCCCappuccinoProject.m in Sources */,
+				686ACD311B16397F0089EB03 /* XCCCappuccinoProjectController.m in Sources */,
+				021B946C1B20D71200F12DDA /* XCCErrorsViewController.m in Sources */,
+				021B94651B20CECA00F12DDA /* XCCOperationsViewController.m in Sources */,
+				6841F2CB1AFADEBC00CFE60E /* XCCSourceProcessingOperation.m in Sources */,
+				6815BBEB1AFC24430030D8BB /* XcodeProjectCloser.m in Sources */,
+				6824CDDE1B0DA34500F73447 /* XCCMainController.m in Sources */,
+				6863FBA31AFD55A900040C8E /* XCCFSEventLogUtils.m in Sources */,
+				680621191B015BF400CB24CD /* XCCCappuccinoProjectControllerDataView.m in Sources */,
+				025800451B1E3F010000EB7D /* XCCAbstractOperation.m in Sources */,
+				686C69711B0FAE620095BB3C /* XCCOperationErrorHeaderDataView.m in Sources */,
+				6824CDF01B0E9F1400F73447 /* XCCOperationError.m in Sources */,
+				021B94751B21112500F12DDA /* XCCWelcomeView.m in Sources */,
+				6841F2441AF98CE600CFE60E /* main.m in Sources */,
+				6824CDDA1B0D5AA700F73447 /* XCCOperationDataView.m in Sources */,
+				6841F2CA1AFADEBC00CFE60E /* XCCSourcesFinderOperation.m in Sources */,
+				681ADE8F1B0D032C00FC8E08 /* XCCPath.m in Sources */,
+				6841F2B71AFA83D500CFE60E /* XCCUserDefaults.m in Sources */,
+				6824CDEA1B0E9CDB00F73447 /* XCCOperationErrorDataView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6841F2471AF98CE600CFE60E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				686ACD331B1691AA0089EB03 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6841F2561AF98CE600CFE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6841F27A1AF990C300CFE60E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = $USER_APPS_DIR;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6841F2571AF98CE600CFE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6841F27B1AF990C300CFE60E /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = $USER_APPS_DIR;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6841F2591AF98CE600CFE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DSTROOT = /;
+				INFOPLIST_FILE = XcodeCapp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cappuccino.xcodecapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6841F25A1AF98CE600CFE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DSTROOT = /;
+				INFOPLIST_FILE = XcodeCapp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cappuccino.xcodecapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6841F2361AF98CE600CFE60E /* Build configuration list for PBXProject "XcodeCapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6841F2561AF98CE600CFE60E /* Debug */,
+				6841F2571AF98CE600CFE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6841F2581AF98CE600CFE60E /* Build configuration list for PBXNativeTarget "XcodeCapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6841F2591AF98CE600CFE60E /* Debug */,
+				6841F25A1AF98CE600CFE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6841F2331AF98CE600CFE60E /* Project object */;
+}
